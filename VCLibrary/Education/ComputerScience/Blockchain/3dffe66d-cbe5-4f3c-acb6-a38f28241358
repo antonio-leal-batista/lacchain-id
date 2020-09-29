@@ -1,0 +1,58 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://lacchain.net/credentials/academy/v1"
+  ],
+  "id": "https://github.com/lacchain/lacchain-id/blob/master/VCLibrary/Education/ComputerScience/Blockchain/3dffe66d-cbe5-4f3c-acb6-a38f28241358",
+  "type": [
+    "VerifiableCredential",
+    "CertificateCredential"
+  ],
+  "issuer": "did:ethr:lacchain:0x23fb32fc8a0fdea0441138ac53480bc7eb23200d",
+  "issuanceDate": "2020-09-29T19:11:59.998Z",
+  "expirationDate": "2021-09-29T19:11:59.998Z",
+  "credentialSubject": {
+    "id": "did:ethr:lacchain:0x10ab300c235dd249b9c3d5d658efdb7e43fd76d8",
+    "givenName": "Guillermo",
+    "familyName": "De La Cruz",
+    "email": "guillermo.dlco@outlook.com",
+    "holds": {
+      "category": "Diploma",
+      "industry": "Computer Science",
+      "skillset": "Blockchain",
+      "course": "Introducción a LACChain",
+      "description": "Aprende y certifícate sobre los principios básicos, arquitectura y herramientas de desarrollo de la red LACChain de Besu",
+      "url": "https://aula.blockchainacademy.cl/p/introduccion-a-lacchain",
+      "duration": 40,
+      "modality": "virtual",
+      "location": null
+    }
+  },
+  "credentialStatus": {
+    "id": "0xC4bBcC8dA14361E09741a8A0B28A1c21dB4AaB9a",
+    "type": "SmartContract"
+  },
+  "proof": [
+    {
+      "id": "did:ethr:lacchain:0x23fb32fc8a0fdea0441138ac53480bc7eb23200d",
+      "type": "EcdsaSecp256k1Signature2019",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "0x5B4d525708196dC6006cC679F2Acf6aD372aA308",
+      "proofValue": "0x5c0e4abc4e70c47d4d4af178cdce3e0ef03bede2b0bc4c7174873af5e4640c5e43341a6747a2a88fb3722cdc5bb5e7cc3b6c1ef380ed946c1be81795b127be381b"
+    },
+    {
+      "id": "did:ethr:lacchain:0x42ad22e12c87f34b8431c2d09b512ef282a94db9",
+      "type": "EcdsaSecp256k1Signature2019",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "0x5B4d525708196dC6006cC679F2Acf6aD372aA308",
+      "proofValue": "0x89e68bc9ff2eda331593662c1a8a0d2ca157378f102b0a13da9a5956fc950142326aabce6b7a0cf6750a50c76ba6b315d1c0d078ee5578708a30ddff217535271b"
+    },
+    {
+      "id": "did:ethr:lacchain:0x5382a42d07a023f44f276f3a647b9b1444b86d30",
+      "type": "EcdsaSecp256k1Signature2019",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "0x5B4d525708196dC6006cC679F2Acf6aD372aA308",
+      "proofValue": "0x007fdcd344a12ad12ead7ae5847e4f887dc439d194fd8af75629f868baa86caf019d2ddb25ff112008fde7669a8671cbd8abf1ac892a60ee5276724268bd76751b"
+    }
+  ]
+}
